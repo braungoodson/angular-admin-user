@@ -29,8 +29,8 @@ angular.module('angularAdminUsersApp')
       confirm: {
 
         /**
-         * Create a function to open a delete confirmation modal (ex. ng-click='myModalFn(name, arg1, arg2...)')
-         * @param  {Function} del - callback, ran when delete is confirmed
+         * Create a function to open a assign confirmation modal (ex. ng-click='myModalFn(name, arg1, arg2...)')
+         * @param  {Function} ass - callback, ran when assign is confirmed
          * @return {Function}     - the function to open the modal (ex. myModalFn)
          */
         assign: function(ass) {
